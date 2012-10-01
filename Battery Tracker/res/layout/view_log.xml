@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_weight="1" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="1" android:layout_margin="5dp">
+        <TableRow
+            android:id="@+id/tagTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/tagLabelTextView"
+                style="@style/LogLabelTextView"
+                android:text="@string/label_tag" />
+            <TextView
+                android:id="@+id/tagTextView"
+                style="@style/LogTextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/batteryStartTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/batteryStartLabelTextView"
+                style="@style/LogLabelTextView"
+                android:text="@string/label_battery_start" />
+            <TextView
+                android:id="@+id/batteryStartTextView"
+                style="@style/LogTextView"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/batteryEndTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/batteryEndLabelTextView"
+                style="@style/LogLabelTextView"
+                android:text="@string/label_battery_end" />
+            <TextView
+                android:id="@+id/batteryEndTextView"
+                style="@style/LogTextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/durationTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/durationLabelTextView"
+                style="@style/LogLabelTextView"
+                android:text="@string/label_duration" />
+            <TextView
+                android:id="@+id/durationTextView"
+                style="@style/LogTextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/dateTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/dateLabelTextView"
+                style="@style/LogLabelTextView"
+                android:text="@string/label_date" />
+            <TextView
+                android:id="@+id/dateTextView"
+                style="@style/LogTextView"></TextView>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/descriptionTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/descriptionLabelTextView"
+                style="@style/LogLabelTextView"
+                android:text="@string/label_description" />
+            <TextView
+                android:id="@+id/descriptionTextView"
+                style="@style/LogTextView"></TextView>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

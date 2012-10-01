@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android1:padding="5dp" >
+
+    <TableRow
+        android1:id="@+id/tableRow0"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content" >
+
+        <TextView
+            android1:id="@+id/batteryUsedTextView"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_gravity="center|left"
+            android1:text="@string/batteryUsedTextView" />
+
+        <EditText
+            android1:id="@+id/batteryUsedEditText"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:clickable="false"
+            android1:ems="10"
+            android1:focusable="false"
+            android:layout_weight="1"
+            style="@style/DataTextView"
+            android1:focusableInTouchMode="false"
+            android1:inputType="numberDecimal"
+            android1:longClickable="false"
+            android1:text="@string/batteryUsedEditText" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android1:id="@+id/tableRow1"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content" >
+
+        <TextView
+            android1:id="@+id/elapsedTimeTextView"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_gravity="center|left"
+            android1:text="@string/elapsedTimeTextView" />
+
+        <EditText
+            android1:id="@+id/elapsedTimeEditText"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:clickable="false"
+            android1:ems="10"
+            android1:focusable="false"
+            android:layout_weight="1"
+            style="@style/DataTextView"
+            android1:focusableInTouchMode="false"
+            android1:inputType="numberDecimal"
+            android1:text="@string/elapsedTimeEditText" />
+
+    </TableRow>
+
+    <TableRow
+        android1:id="@+id/tableRow2"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content" >
+
+        <TextView
+            android1:id="@+id/consumptionRateTextView"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_gravity="center|left"
+            android1:text="@string/consumptionRateTextView" />
+
+        <EditText
+            android1:id="@+id/consumptionRateEditText"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/DataTextView"
+            android1:clickable="false"
+            android1:ems="10"
+            android1:focusable="false"
+            android1:focusableInTouchMode="false"
+            android1:inputType="numberDecimal"
+            android1:longClickable="false"
+            android1:text="@string/consumptionRateEditText" />
+
+    </TableRow>
+</TableLayout>

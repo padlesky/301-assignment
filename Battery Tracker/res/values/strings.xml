@@ -1,0 +1,42 @@
+<resources>
+    
+    <string name="app_name">Battery Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_log__tracker">Battery Tracker</string>
+    <string name="batteryUsedTextView">Battery % Used</string>
+    <string name="batteryUsedEditText">0.00</string>
+    <string name="elapsedTimeTextView">Battery Time (s)</string>
+    <string name="elapsedTimeEditText">0.0</string>
+    <string name="consumptionRateTextView">Consumption Rate</string>
+    <string name="consumptionRateEditText">0.0</string>
+    <string name="logEntryTitleTextView">Log Entries</string>
+   <string name="button_add_log">Add Log</string>
+   <string name="button_save_log">Save Log</string>
+   <string name="button_view_log">View Log</string>
+   <string name="menuitem_view_log">View Log</string>
+   <string name="menuitem_add_log">Add Log</string>
+   <string name="menuitem_edit_log">Edit Log</string>
+   <string name="menuitem_delete_log">Delete Log</string>
+   <string name="hint_tag">Tag</string>
+   <string name="hint_start">Battery Start %</string>
+   <string name="hint_end">Battery End %</string>
+   <string name="hint_duration">Time in seconds</string>
+   <string name="hint_year">YYYY-MM-DD</string>
+   <string name="hint_description">Description of what you were doing</string>
+   <string name="label_tag">Tag:</string>
+   <string name="label_battery_start">Battery Start:</string>
+   <string name="label_battery_end">Battery End:</string>
+   <string name="label_duration">Duration:</string>
+   <string name="label_date">Date:</string>
+   <string name="label_description">Description:</string>
+   <string name="confirmTitle">Are You Sure?</string>
+   <string name="confirmMessage">
+      This will permanently delete the log</string>
+   <string name="errorButton">OK</string>
+   <string name="errorTitle">Log Tag is Required</string>
+   <string name="errorMessage">You must enter a tag</string>
+   <string name="button_cancel">Cancel</string>
+   <string name="button_delete">Delete</string>
+
+</resources>
